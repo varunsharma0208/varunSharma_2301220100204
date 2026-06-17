@@ -1,4 +1,5 @@
-Palindrome Number->
+Palindrome Number [LeetCode-9]
+
 class Solution {
     public boolean isPalindrome(int x) {
         int temp=x;
@@ -27,3 +28,48 @@ class Solution {
 ===============================================
 
 String Palindrome->
+
+===============================================
+
+Minimum Number of steps->
+
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int d=sc.nextInt();
+        int steps=0;
+        steps=d/5;
+        if(d%5==0)
+        {
+            System.out.println(steps);
+        }
+        else
+        {
+            System.out.println(steps+1);
+        }
+    }
+}
+
+===============================================
+
+Find the winner between A and B->
+
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number:");
+        int n=sc.nextInt();
+        if(n%3==0)
+        {
+            System.out.println("Winner:B");
+        }
+        else
+        {
+            System.out.println("Winner:A");
+        }
+    }
+}
+
+===============================================
